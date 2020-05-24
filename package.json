@@ -1,0 +1,31 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwitchbladeBot/portal.git"
+  },
+  "author": "Switchblade Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SwitchbladeBot/portal/issues"
+  },
+  "homepage": "https://github.com/SwitchbladeBot/portal#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "@switchblade/service-utils": "^1.0.0",
+    "detritus-client-socket": "^0.5.0",
+    "tedis": "^0.1.12",
+    "winston": "^3.2.1",
+    "ws": "^7.3.0"
+  }
+}
